@@ -1,0 +1,474 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+body * {
+  font-family: "DM Sans", sans-serif;
+  color: #000;
+  box-sizing: border-box;
+}
+
+/* FIRST SESSION */
+
+#container {
+  width: 70%;
+  margin: 56px auto 0px;
+}
+
+#greeting {
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 20px;
+  background-color: #e6f7ff;
+}
+
+#greeting-content {
+  width: 100%;
+}
+
+#greeting-logo img {
+  width: 260px;
+}
+
+#greeting-title {
+  width: 100%;
+  padding: 20px 20px 0px 20px;
+}
+
+#greeting-title h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: none;
+  line-height: 1.2em;
+}
+
+#greeting-subtitle {
+  width: 100%;
+  padding: 20px 20px 0px 20px;
+}
+
+#greeting-subtitle h2 {
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: none;
+  font-style: normal;
+}
+
+#greeting-button {
+  width: 100%;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+#greeting-button #button {
+  display: flex;
+  padding: 20px;
+
+  border: 1px solid;
+  border-radius: 20px;
+
+  cursor: pointer;
+  background-color: #111e47;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+}
+
+#button span {
+  color: #fff;
+}
+
+#button .fas {
+  color: #fff;
+  margin-right: 10px;
+}
+
+#greeting-image {
+  display: flex;
+  width: 50%;
+  height: auto;
+  padding: 20px 20px 0px 20px;
+}
+
+#greeting-image img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+/* END OF FIRST SESSION */
+
+/* START OF SECOND SESSION */
+
+#therapy-methods {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+
+  width: 100%;
+  margin-top: 30px;
+  padding: 0px 20px 0px 20px;
+}
+
+#method-one,
+#method-two,
+#method-three {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 100px;
+  background-color: black;
+}
+
+#therapy-methods .fas {
+  font-size: 40px;
+  color: #111e47;
+
+  padding: 0px 10px 0px 10px;
+}
+
+#therapy-methods p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+/* END OF SECOND SESSION */
+
+/* START OF THIRD SESSION */
+
+#therapy-main-container {
+  margin-top: 30px;
+  background-color: #e6f7ff;
+  border-radius: 20px;
+}
+
+#therapy-about {
+  display: flex;
+  flex-direction: row;
+}
+
+#therapy-about-image {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+#therapy-about-image img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+#therapy-about-content {
+  width: 50%;
+  padding-top: 60px;
+}
+
+#therapy-about-content h2 {
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: none;
+  line-height: 1.2em;
+
+  padding: 20px 20px 0px 20px;
+}
+
+#therapy-about-content-text-one {
+  padding: 20px 20px 0px 20px;
+}
+
+#therapy-about-content-text-one p {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4em;
+
+  padding: 0px 0px 10px 0px;
+}
+
+#therapy-about-content-text-one b {
+  font-weight: 700;
+}
+
+#therapy-about-content-text-two {
+  padding: 20px 20px 0px 20px;
+}
+
+#therapy-about-content-text-two span {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+#therapy-about-content-text-two p {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4em;
+
+  padding: 10px 0px 0px 0px;
+}
+
+#therapy-about-content-text-three {
+  padding: 30px 20px 0px 20px;
+}
+
+#therapy-about-content-text-three span {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+#therapy-about-content-text-three p {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4em;
+
+  padding: 10px 0px 0px 0px;
+}
+
+#therapy-about-content-text-four {
+  padding: 30px 20px 0px 20px;
+}
+
+#therapy-about-content-text-four span {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+#therapy-about-content-text-four p {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4em;
+
+  padding: 10px 0px 0px 0px;
+}
+
+#therapy-about-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#therapy-about-footer-text {
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+}
+
+#therapy-about-footer-text h2 {
+  font-size: 16px;
+  text-transform: none;
+}
+
+#therapy-about-footer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+  padding: 20px;
+}
+
+#therapy-button {
+  display: flex;
+  padding: 20px;
+
+  border: 1px solid;
+  border-radius: 20px;
+
+  cursor: pointer;
+  background-color: #111e47;
+
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+}
+
+#therapy-button span {
+  color: #fff;
+}
+
+#therapy-button .fa {
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* END OF THIRD SESSION */
+
+/* START OF FOURTH SESSION */
+
+#therapy-steps {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  padding: 0px 0px 20px 0px;
+}
+
+#therapy-steps-content {
+  width: 50%;
+}
+
+#therapy-steps-content-title {
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+#therapy-first-step {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px 20px 0px 20px;
+}
+
+#therapy-first-step .fa {
+  font-size: 36px;
+  color: #111e47;
+}
+
+#therapy-first-step span {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+#therapy-first-step p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+#therapy-second-step {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px 20px 0px 20px;
+}
+
+#therapy-second-step .fa {
+  font-size: 36px;
+  color: #111e47;
+}
+
+#therapy-second-step span {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+#therapy-second-step p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+#therapy-steps-content-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0px 20px;
+  gap: 10px;
+}
+
+.therapy-steps-content-subtitle {
+  font-size: 16px;
+  text-transform: none;
+}
+
+#therapy-steps-content-footer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px 20px 20px 20px;
+  margin-top: 20px;
+}
+
+#therapy-steps-button {
+  display: flex;
+  padding: 20px;
+
+  border: 1px solid;
+  border-radius: 20px;
+
+  cursor: pointer;
+  background-color: #111e47;
+
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+}
+
+#therapy-steps-button span {
+  color: #fff;
+}
+
+#therapy-steps-button .fa {
+  color: #fff;
+  margin-right: 10px;
+}
+
+#therapy-steps-image {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  overflow: hidden;
+}
+
+#therapy-steps-image img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+#social-media {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#social-media a {
+  padding: 20px 20px 20px 20px;
+}
+
+#social-media img {
+  height: 22px;
+}
+
+@media (max-width: 768px) {
+  #greeting {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  #greeting {
+    flex-direction: column;
+  }
+}
