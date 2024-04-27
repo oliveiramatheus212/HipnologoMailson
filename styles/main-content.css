@@ -93,7 +93,6 @@ body * {
 
 #greeting-image {
   display: flex;
-  width: 50%;
   height: auto;
   padding: 20px 20px 0px 20px;
 }
@@ -461,14 +460,41 @@ body * {
   height: 22px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   #greeting {
     flex-direction: column;
+    text-align: center;
+  }
+
+  #greeting-button {
+    display: flex;
+    justify-content: center;
   }
 }
 
-@media (max-width: 1024px) {
-  #greeting {
+@media (max-width: 810px) {
+  #therapy-methods {
     flex-direction: column;
+  }
+
+  #therapy-about {
+    justify-content: center;
+  }
+
+  #therapy-about-image {
+    display: none;
+  }
+
+  #therapy-about-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #therapy-steps {
+    justify-content: center;
+  }
+
+  #therapy-steps-image {
+    display: none;
   }
 }
