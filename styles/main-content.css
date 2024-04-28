@@ -481,6 +481,11 @@ body * {
     justify-content: center;
   }
 
+  #therapy-about-content {
+    width: 100%;
+    padding-top: 0;
+  }
+
   #therapy-about-image {
     display: none;
   }
@@ -490,8 +495,16 @@ body * {
     align-items: center;
   }
 
+  #therapy-about-footer-text {
+    width: 100%;
+  }
+
   #therapy-steps {
     justify-content: center;
+  }
+
+  #therapy-steps-content {
+    width: 100%;
   }
 
   #therapy-steps-image {
