@@ -511,3 +511,47 @@ body * {
     display: none;
   }
 }
+
+@media (max-width: 360px) {
+  #therapy-methods {
+    flex-direction: column;
+  }
+
+  #therapy-about {
+    justify-content: center;
+  }
+
+  #therapy-about-content {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  #therapy-about-image {
+    display: none;
+  }
+
+  #therapy-about-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #therapy-about-footer-text {
+    width: 100%;
+  }
+
+  #therapy-about-footer-button {
+    width: 100%;
+  }
+
+  #therapy-steps {
+    justify-content: center;
+  }
+
+  #therapy-steps-content {
+    width: 100%;
+  }
+
+  #therapy-steps-image {
+    display: none;
+  }
+}
