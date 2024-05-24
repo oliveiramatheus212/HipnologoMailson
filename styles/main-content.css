@@ -461,6 +461,10 @@ body * {
 }
 
 @media (max-width: 1200px) {
+  #container {
+    width: 90%;
+  }
+
   #greeting {
     flex-direction: column;
     text-align: center;
@@ -473,6 +477,10 @@ body * {
 }
 
 @media (max-width: 810px) {
+  #container {
+    width: 90%;
+  }
+
   #therapy-methods {
     flex-direction: column;
   }
